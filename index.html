@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Beautiful Chat App</title>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div id="chat-container" class="center">
+    <h1 style="text-align: center;">Welcome to Anubhav's Chat Application</h1>
+    <div id="message-container" class="chat-box"></div>
+    <form id="send-container" class="chat-box">
+      <input type="text" id="message-input" placeholder="Type your message...">
+      <button type="submit" id="send-button">Send</button>
+    </form>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
